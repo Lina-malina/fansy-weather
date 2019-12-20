@@ -1,0 +1,97 @@
+html {
+  font-size: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 65%;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+.controls {
+  padding: 2rem;
+}
+
+.controls .controls_input {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 575px) {
+  .controls_input {
+    margin-top: .5rem;
+  }
+}
+
+.icon-btn {
+  font-size: .83rem;
+}
+
+#wrapper {
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.forecast--time {
+  text-align: center;
+}
+
+#map {
+  width: 13rem;
+  height: 13rem;
+}
+
+@media screen and (max-width: 575px) {
+  #map {
+    width: 11rem;
+    height: 11rem;
+  }
+}
+
+.text_style {
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#location {
+  font-size: 2rem;
+}
+
+#temp {
+  font-size: 5rem;
+}
+
+.forecast--day {
+  font-size: 2rem;
+}
+
+.forecast--weather {
+  font-size: 1.5rem;
+}
+
+#icon > i {
+  font-size: 3rem;
+  color: white;
+}
+
+.forecast--icon > i {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/*# sourceMappingURL=main.css.map */
